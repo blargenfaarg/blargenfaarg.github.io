@@ -1,0 +1,68 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+  }
+  
+  header nav a {
+    margin-left: 20px;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    margin-top: 40px;
+  }
+  
+  .blog-post {
+    background-color: #333;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .blog-post h2 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+  }
+  
+  .blog-post p {
+    font-size: 0.9rem;
+    margin-top: 10px;
+  }
+  
+  .grid {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .grid-item {
+    background-color: #444;
+    flex: 1;
+    height: 150px;
+  }
