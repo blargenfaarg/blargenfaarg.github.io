@@ -56,16 +56,31 @@
     background-color: #333;
     padding: 20px;
     margin-bottom: 20px;
+    text-align: center;
+    text-transform: lowercase;
+    letter-spacing: -1px;
+
   }
   
   .blog-post h2 {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     text-transform: lowercase;
+    margin-bottom: 10px;
   }
   
   .blog-post p {
-    font-size: 0.9rem;
+    font-size: 1.9rem;
     margin-top: 10px;
+  }
+
+  .socials {
+    margin-top: 10px;
+    word-spacing: 16px;
+  }
+
+  .underconstruction {
+    margin-top: 40px;
+    text-align: center;
   }
   
   .grid {
@@ -77,6 +92,7 @@
     background-color: #444;
     flex: 1;
     height: 150px;
+    text-align:center;
   }
 
   /* Dark Gray Background Rectangle */
